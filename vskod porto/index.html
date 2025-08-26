@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Rioyaa</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Rioyaa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero d-flex align-items-center">
+    <div class="container text-center text-white">
+      <h1><span id="typing-text"></span><span class="cursor">|</span></h1>
+      <p class="lead">Web Developer & Siswa SMK KRIAN 1</p>
+      <a href="#portfolio" class="btn btn-light mt-3">Lihat Portofolio</a>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Tentang Saya</h2>
+      <p>Saya adalah seorang siswa SMK jurusan RPL yang antusias belajar web development dan senang membuat proyek kreatif.</p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-5">
+    <div class="container skill-container">
+      <h2 class="text-center mb-4">Skills</h2>
+      <div class="mb-3">
+        <label>HTML</label>
+        <div class="progress"><div class="progress-bar" style="width:50%">50%</div></div>
+      </div>
+      <div class="mb-3">
+        <label>CSS</label>
+        <div class="progress"><div class="progress-bar bg-success" style="width:50%">50%</div></div>
+      </div>
+      <div class="mb-3">
+        <label>JavaScript</label>
+        <div class="progress"><div class="progress-bar bg-warning" style="width:20%">20%</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Portfolio</h2>
+      <div class="row g-3">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/6d9a827501cf779b9926ee6fce4b3192.jpg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Blogger</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus adipisci repellendus inventore praesentium fuga? Culpa, facere illo quaerat accusamus odit placeat vitae incidunt quo distinctio numquam est, iste sit soluta..</p>
+              <a href="https://rioatauyuda.blogspot.com/" class="btn btn-light mt-3 d-block mx-auto">Lihat</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/Ryo Yamada.jpg" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Kaggle</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus adipisci repellendus inventore praesentium fuga? Culpa, facere illo quaerat accusamus odit placeat vitae incidunt quo distinctio numquam est, iste sit soluta..</p>
+              <a href="https://www.kaggle.com/rioyudawan" class="btn btn-light mt-3 d-block mx-auto">Lihat</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/Furina Iconᯓ★.jpg" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">GitHub</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos facere quas libero nam eos id aliquam molestiae animi, laudantium illum doloremque magnam, deserunt vitae, velit sint? Ea modi cumque natus?.</p>
+              <a href="https://github.com/RioYudawan" class="btn btn-light mt-3 d-block mx-auto">Lihat</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+<section id="contact" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Beri Feedback</h2>
+    <form class="w-75 mx-auto mb-5">
+      <div class="mb-3">
+        <label for="name" class="form-label">Nama</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Pesan</label>
+        <textarea class="form-control" id="message" rows="3" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary w-100">Kirim</button>
+    </form>
+
+    <!-- Kontak Sosial -->
+    <h2 class="mb-3 text-center">Sosial Media</h2>
+    <p class="mb-4 text-muted text-center">
+      Silakan hubungi saya melalui media sosial berikut
+    </p>
+    <div class="d-flex justify-content-center gap-4 flex-wrap text-center">
+      <a href="https://wa.me/6289647081823" target="_blank" class="text-decoration-none text-primary">
+        <i class="bi bi-whatsapp"></i><br />Whatsapp
+      </a>
+      <a href="mailto:rio.yudawan@gmail.com" target="_blank" class="text-decoration-none text-primary">
+        <i class="bi bi-envelope-at"></i><br />Email
+      </a>
+      <a href="https://instagram.com/ryo_yud" target="_blank" class="text-decoration-none text-danger">
+        <i class="bi bi-instagram"></i><br />Instagram
+      </a>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="py-3 bg-dark text-white text-center">
+    <p class="mb-0">&copy; 2025 Rioyaa | Dibuat dengan penuh tekanan</p>
+  </footer>
+
+  <!-- Script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
